@@ -1,5 +1,5 @@
 # InvDet
-Target-Aware Invertible Encoder with Reconstruction Guidance for Infrared Small Target Detection [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)]([https://你的论文真实链接_比如arxiv地址](https://github.com/SchulerYan/InvDet/blob/main/paper/InvDet_CVPR2026.pdf)) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+Target-Aware Invertible Encoder with Reconstruction Guidance for Infrared Small Target Detection [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)]([https://你的论文真实链接_比如arxiv地址](https://github.com/SchulerYan/InvDet/blob/main/paper/InvDet_CVPR2026.pdf))
 
 > **⏳ Status Update:** Welcome to the official repository for **InvDet**. The source code (based on PyTorch) is currently undergoing institutional review and final refinement for extended work. The full training and inference pipelines will be open-sourced here as soon as the process is complete. 
 
@@ -22,6 +22,7 @@ This repository implements **InvDet**, a target-aware invertible encoder that un
 
 Our method achieves competitive accuracy on five public infrared benchmarks (IRSTD-1K, NUAA-SIRST, NUDT-SIRST, IRSTD, and DUAB) while exhibiting strong cross-dataset generalization. 
 
+![Comparison](./figs/Tab1.png)
 ![Visualization](./figs/cross_dataset_vis.png)
 
 ## Citation
