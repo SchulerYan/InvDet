@@ -5,7 +5,7 @@ Target-Aware Invertible Encoder with Reconstruction Guidance for Infrared Small 
 
 ## Overview
 
-Modern detectors typically deepen backbones and rely on aggressive downsampling to harvest high-level semantics. However, this severely degrades low-energy infrared tiny targets via rescale-induced information loss.
+Modern detectors typically deepen backbones and rely on aggressive downsampling to harvest high-level semantics. But this severely degrades low-energy infrared tiny targets via rescale-induced information loss. This work introduces InvDet, a target-aware invertible encoder that unifies information preservation and target-aware enhancement within a reconstruction-guided detection framework. An invertible pathway reconstructs the input from feature latents, exposing information loss as an optimizable quantity. To decouple detection from irrelevant reconstruction, a Target-Aware Reconstruction Modulation (TARM) module operates only in the inverse path, gating high-pass latents and applying a mild gain to low-pass features without altering the forward detection distribution. In addition, a Geometry–Content Tolerance Metric (GCTM) is proposed to focus on truly informative regions and yields a pixel-wise weight map that gently regularizes the reconstruction branch. Our method achieves competitive accuracy on five public infrared benchmarks while exhibiting strong cross-dataset generalization, providing a principled pathway toward detection-friendly representation learning for scale-challenged visual regimes.
 
 ![Rescale-introduced information loss](./figs/fig1.png)
 
